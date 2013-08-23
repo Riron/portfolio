@@ -3,12 +3,7 @@ body {
     color: #34495e;
 }
 
-/*     */
-.jumbotron {
-    background-color: #1ABC9C;
-    color: white;
-}
-
+/*  --   */
 .navbar-default .navbar-brand {
     color: #34495e;
 }
@@ -20,9 +15,19 @@ body {
     background-color: #2980B9;
 }
 
-/*     */
+section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*  --   */
 .header-text {
     font-size: 1.8em;
+}
+
+.jumbotron.intro {
+    background-color: #1ABC9C;
+    color: white;
 }
 
 .home-icon { 
@@ -40,6 +45,34 @@ body {
 }
 .home-icon:hover { opacity: 0.6; }
 .home-icon:hover p { opacity: 0.6; }
+
+
+.jumbotron.email {
+    margin-top: 15px;
+    background-color: #F1C40F;
+}
+
+.email-form {
+    background-color: #edeff1;
+    padding: 24px 23px 20px;
+    position: relative;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+.email-form:before {
+    content: '';
+    border-style: solid;
+    border-width: 12px 12px 12px 0;
+    border-color: transparent #edeff1 transparent transparent;
+    height: 0;
+    position: absolute;
+    left: -12px;
+    top: 35px;
+    width: 0;
+    -webkit-transform: rotate(360deg);
+}
 
 footer{
     border-top: 1px solid #ddd;
