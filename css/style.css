@@ -4,6 +4,14 @@ body {
 }
 
 /*  --   */
+.logo {
+    height:50px;
+}
+
+.navbar-brand {
+    padding: 0px 15px;
+}
+
 .navbar-default .navbar-brand {
     color: #34495e;
 }
@@ -15,19 +23,60 @@ body {
     background-color: #2980B9;
 }
 
+.jumbotron {
+    margin-bottom: 0px;
+}
+
 section {
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-/*  --   */
-.header-text {
-    font-size: 1.8em;
+a {
+    color: #16a085;
 }
 
-.jumbotron.intro {
+a:hover {
+    color: #1abc9c;
+}
+
+/*  --   */
+
+p {
+    font-size: 1.5em;
+}
+
+.profile-img {
+    width:150px;
+    height:150px;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s; 
+    transition-duration: 0.5s; 
+    -o-transition-duration: 0.5s; 
+}
+
+.profile-img:hover {
+    opacity: 0.4;
+}
+
+.profile {
+    background: url('../img/logo.png') no-repeat center;
+}
+
+.center {
+    text-align: center;
+}
+
+.intro {
     background-color: #1ABC9C;
     color: white;
+}
+
+.company-logo {
+}
+
+a.thumbnail:hover {
+    border-color: #1abc9c;
 }
 
 .home-icon { 
@@ -47,9 +96,13 @@ section {
 .home-icon:hover p { opacity: 0.6; }
 
 
-.jumbotron.email {
+.email {
     margin-top: 15px;
-    background-color: #F1C40F;
+    background-color: #E74C3C;
+}
+
+.email h2 {
+    color: white;
 }
 
 .email-form {

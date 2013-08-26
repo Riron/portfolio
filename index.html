@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="favicon.png">
     
-    <title>Orion Charlier</title>
+    <title>Orion Charlier - Page personnelle</title>
     
         <!-- CSS -->
         <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
@@ -23,7 +23,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">OC</a>
+            <a class="navbar-brand" href="#"><img class="logo" src="img/logo.png"></a>
           </div>
         
           <!-- Collect the nav links, forms, and other content for toggling -->
@@ -36,53 +36,67 @@
         </nav>
         
         
-        <section class="jumbotron intro">
-          <div class="container">
-            <img src="img/chat.png" class="pull-right">
-            <h1>Bienvenue !</h1>
-            <p class="header-text">Mon nom est Orion CHARLIER.</p>
-            <p class="header-text">Elève ingénieur à l'école des Mines de Douai et passioné de technologies web.</p>
-          </div>
-        </section>
-        
-        <section class="container">
-            <div class="row">
-                <div class="col-md-4 about">
-                    <a href="#" >
-                        <span class="glyphicon glyphicon-info-sign home-icon">
-                            <p>Détail</p>
-                        </span>
-                    </a>
-                    <h3>A propos</h3>
-                    <p>Quelques mots...</p>
-                    <p><a href="#">En savoir plus »</a></p>
+        <section class="jumbotron center">
+            <div class="container">
+                <div class="profile">
+                    <img class="img-circle profile-img" src="https://fr.gravatar.com/userimage/54356976/c2e2ada83b1e8e085e0397286878fec0.jpg?size=150">
                 </div>
-                <div class="col-md-4">
-                    <a href="#">
-                        <span class="glyphicon glyphicon-briefcase home-icon"></span>
-                    </a>
-                    <h3>Stagiaire à CANAL+</h3>
-                    <p>Description du projet</p>
-                    <p><a href="#">En savoir plus »</a></p>
-                </div>
-                <div class="col-md-4">
-                    <a href="#">
-                        <span class="glyphicon glyphicon-envelope home-icon"></span>
-                    </a>
-                    <h3>Contact</h3>
-                    <p>Description des moyens de contact</p>
-                    <p><a href="#">En savoir plus »</a></p>
-                </div>
+                <h1>Orion Charlier</h1>
+                <p><em>Jeune ingénieur en informatique</em></p>
             </div>
         </section>
         
-        <section class="jumbotron email">
-            <div class="container row">
-                <div class="email-icon col-md-1">
-                    <img src="">
-                    <p>Contactez moi !</p>
-                </div>
-                <div class="email-form col-md-10 col-md-offset-1">
+        <section class="intro">
+          <div class="container">
+            <img src="img/chat.png" class="pull-right">
+            <h2>A propos</h2>
+            <p>Ici un texte de présentaion.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget urna quis dolor hendrerit varius. Nullam at eros id tellus tincidunt varius. Aliquam orci eros, aliquet in accumsan sed, accumsan id lectus.</p>
+          </div>
+        </section>
+        
+        <section class="container competences">
+        <h2>Mes expériences</h2>
+            <div class="row">
+                <article class="col-md-3">
+                    <a href="#" class="thumbnail">
+                      <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Lyc%C3%A9e_Pasteur_1.jpg/800px-Lyc%C3%A9e_Pasteur_1.jpg" alt="...">
+                    </a>
+                    <h3>Lycée Pasteur</h3>
+                    <em>Classe préparatoire</em>
+                </article>
+                <article class="col-md-3">
+                    <a href="" class="thumbnail">
+                        <img class="company-logo" src="http://upload.wikimedia.org/wikipedia/fr/0/0a/LogoMinesDouai.png">
+                    </a>
+                    <h3>Ecole des Mines Douai</h3>
+                    <em>Etudiant</em>
+                </article>
+                <article class="col-md-3">
+                    <a href="" class="thumbnail">
+                        <img class="company-logo" src="http://www.flyingpan.com/sites/all/themes/FP/images/logo.gif">
+                    </a>
+                    <h3>Flying Pan</h3>
+                    <em>Stagiaire</em>
+                </article>
+                <article class="col-md-3">
+                    <a href="" class="thumbnail">
+                        <img class="company-logo" src="http://www.startwork.fr/wp-content/uploads/2011/10/canal-plus-logo.jpg">
+                    </a>
+                    <h3>CANAL+</h3>
+                    <em>Stage </em>
+                </article>
+            </div>
+            <article class="detail">
+                <img class="company-logo" src="http://www.flyingpan.com/sites/all/themes/FP/images/logo.gif">
+                <h2>CANAL</h2>
+                <p>Le détail de ma formation</p>
+            </article>
+        </section>
+        
+        <section class="email">
+            <div class="container">
+                <h2>Contactez moi</h2>
+                <div class="email-form">
                     <form class="form-horizontal" role="form">
                       <div class="form-group">
                         <label for="inputEmail1" class="col-lg-2 control-label">Email</label>
@@ -125,5 +139,7 @@
         <!-- Script -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+        <script src="app.js"></script>
     </body>
 </html>
